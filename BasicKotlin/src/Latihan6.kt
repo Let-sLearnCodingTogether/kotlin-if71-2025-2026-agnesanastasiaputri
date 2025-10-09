@@ -4,6 +4,6 @@ fun main() {
     println(animals)
 
     //Mutable
-    val fruits : MutableSet<String> = mutableSetOf("Aple", "Jeruk")
+    val fruits : MutableSet<String> = mutableSetOf("Aple", "   Jeruk")
     println(fruits)
 }
