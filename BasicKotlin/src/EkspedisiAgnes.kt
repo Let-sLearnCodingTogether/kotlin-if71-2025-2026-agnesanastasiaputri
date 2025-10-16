@@ -23,6 +23,9 @@ fun main() {
             println("Bahaya, kelebihan muatan! Berat saat ini " + totalBeratBawaan + " kg. Kapasitas hanya 20 kg.")
             println("Proses kalkulasi logistik selesai")
         }
+        else if (totalBeratBawaan == 20.0){
+            println("Optimal! Tas milik " + namaPetualang + " sekarang penuh dengan sempurna.")
+        }
         else{
             print(namaBarang + " dengan berat " + beratBarang + " kg telah ditambahkan.")
             println("Barang berhasil dimasukkan. Sisa kapasitas tas: " + kapasitasTas + " kg.")
