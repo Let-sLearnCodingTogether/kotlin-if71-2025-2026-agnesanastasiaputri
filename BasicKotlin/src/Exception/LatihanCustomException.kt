@@ -2,8 +2,6 @@ package Exception
 
 class NilaiTidakValidException(msg: String) : Exception(msg)
 
-val nilai: Int = 100
-
 fun validasiNilai(nilai: Int){
     if(nilai < 0 || nilai > 100){
         throw NilaiTidakValidException("Nilai harus antara 0 hingga 100")
