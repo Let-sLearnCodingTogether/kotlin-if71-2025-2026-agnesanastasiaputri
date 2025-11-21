@@ -6,11 +6,10 @@ fun parseStringToInt(input: String) : Int {
     } catch (error: NumberFormatException){
         0
     }
-
     return hasil
 }
 
 fun main() {
-    parseStringToInt("1")
-    parseStringToInt("TEST")
+    println(parseStringToInt("1"))
+    println(parseStringToInt("TEST"))
 }
