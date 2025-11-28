@@ -12,3 +12,13 @@ class Matrix(private val rows : Int, private val cols : Int){
         data[i][j] = value
     }
 }
+
+fun main() {
+    val matrix1 = Matrix(3, 3)
+    matrix1[0, 0] = 1
+    matrix1[1, 2] = 2
+
+    println(matrix1[0, 0]) //1
+    println(matrix1[1, 2]) //2
+
+}
